@@ -107,3 +107,8 @@ public class SecondFragment extends Fragment {
     }
 }
 ```
+---
+
+```
+Copyright 2020 M. Fadli Zein
+```
