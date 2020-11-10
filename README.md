@@ -11,7 +11,7 @@ implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
 implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version"
 ```
 
-- SharedVM.java
+- `SharedVM.java`
 ```java
 public class SharedVM extends ViewModel {
     private final MutableLiveData<String> selected = new MutableLiveData<>();
@@ -26,7 +26,7 @@ public class SharedVM extends ViewModel {
 }
 ```
 
-- MainActivity.java
+- `MainActivity.java`
 ```java
 public class MainActivity extends AppCompatActivity {
 
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-- FirstFragment.java
+- `FirstFragment.java`
 ```java
 public class FirstFragment extends Fragment {
 
@@ -81,7 +81,7 @@ public class FirstFragment extends Fragment {
 }
 ```
 
-- SecondFragment.java
+- `SecondFragment.java`
 ```java
 public class SecondFragment extends Fragment {
 
